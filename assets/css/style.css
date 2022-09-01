@@ -9,3 +9,16 @@
     display: table;
     clear: both;
 }
+
+/* header */
+
+header{
+    padding: 2rem;
+    text-align: center;
+}
+
+h1{
+    color: #e43070;
+}
+
+/* /header */
