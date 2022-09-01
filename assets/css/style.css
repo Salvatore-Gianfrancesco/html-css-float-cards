@@ -13,6 +13,7 @@
 body{
     width: 75%;
     margin: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 /* header */
@@ -24,6 +25,7 @@ header{
 
 h1{
     color: #e43070;
+    font-weight: 900;
 }
 
 /* /header */
@@ -53,12 +55,11 @@ img{
     width: calc(100% / 3 - 2rem);
     background-color: #0f0e17;
     float: left;
-    /* border: 1rem solid #faf6f8; */
     box-shadow: 0 0 5px #000000;
     margin: 1rem;
 }
 
-h2{
+h4{
     color: #faf6f8;
 }
 
