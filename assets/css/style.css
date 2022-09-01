@@ -59,6 +59,13 @@ img{
     margin: 1rem;
 }
 
+.info{
+    display: table-cell;
+    height: 6rem;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+
 h4{
     color: #faf6f8;
 }
@@ -76,3 +83,13 @@ span{
 }
 
 /* /main */
+
+/* footer */
+
+footer{
+    text-align: right;
+}
+
+footer::after{
+    content: "\00a9";
+}
