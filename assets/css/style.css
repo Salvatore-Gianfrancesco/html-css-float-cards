@@ -10,12 +10,6 @@
     clear: both;
 }
 
-body{
-    width: 75%;
-    margin: auto;
-    font-family: 'Lato', sans-serif;
-}
-
 /* header */
 
 header{
@@ -26,34 +20,33 @@ header{
 h1{
     color: #e43070;
     font-weight: 900;
+    font-family: 'Fredoka One', cursive;
+}
+
+p{
+    margin: 2rem 0rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* /header */
 
 /* main */
 
-main > p{
-    text-align: center;
-}
-
-p{
-    margin: 2rem 0rem;
+.container{
+    width: 75%;
+    margin: auto;
 }
 
 img{
-    width: 6rem;
+    max-width: 100%;
     height: 6rem;
-    float: left;
     margin-right: 1rem;
-}
-
-.row{
-    margin: 1rem;
+    float: left;
 }
 
 .col-4{
     width: calc(100% / 3 - 2rem);
-    background-color: #0f0e17;
+    background-color: #000000;
     float: left;
     box-shadow: 0 0 5px #000000;
     margin: 1rem;
@@ -64,22 +57,19 @@ img{
     height: 6rem;
     vertical-align: middle;
     line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h4{
     color: #faf6f8;
 }
 
-div.col-4 span:first-of-type{
+div.col-4 div:first-of-type{
     color: #faf6f8;
 }
 
-div.col-4 span:last-of-type{
+div.col-4 div:last-of-type{
     color: #3aafde;
-}
-
-span{
-    display: block;
 }
 
 /* /main */
@@ -88,8 +78,11 @@ span{
 
 footer{
     text-align: right;
+    font-family: 'Poppins', sans-serif;
 }
 
-footer::after{
-    content: "\00a9";
+footer .container > div::after{
+    content: " \00a9";
 }
+
+/* /footer */
